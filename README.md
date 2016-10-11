@@ -19,30 +19,20 @@ Implementar uma aplicação client-side, que consulte a [API do GitHub](https://
 
 ## Definição de Pronto
 
-* Não é obrigatório o uso de um framework ou biblioteca JavaScript, mas recomendamos [React.js](https://facebook.github.io/react/), [Angular](https://angular.io/) ou [Vue.js](https://vuejs.org/).
+* É necessário o uso de um framework JavaScript, de preferência [React.js](https://facebook.github.io/react/) ou [Angular](https://angular.io/).
 * Não é obrigatório mas recomendado que sua aplicação esteja coberta com testes (unitários ou funcionais), e que exista um relatório de cobertura de testes.
-* Não é obrigatório o uso de algum pré-processador de CSS mas recomendamos PostCSS, SASS, LESS ou Stylus.
-* Não é obrigatório o uso de alguma arquitetura CSS como SMACCSS, BEM ou Atomic Design.
+* É desejável o uso de algum pré-processador de CSS como PostCSS, SASS, LESS ou Stylus.
+* É desejável o uso de alguma arquitetura CSS como SMACCSS, BEM ou Atomic Design.
 * É obrigatório que o layout seja facilmente acessível com HTML Semântico, navegação via teclado e responsivo para dispositivos com a resolução mínima de 320 x 480;
 * Não é obrigatório mas recomendamos o uso de algum *task runner* como [Grunt](http://gruntjs.com/) ou [Gulp](http://gulpjs.com/);
 * É obrigatório um arquivo README.md com instruções para instalação de dependências e execução do projeto e testes;
-
-## Critérios de Avaliação
-
-* Organização do projeto: Avalia a estrutura do projeto, documentação e uso de controle de versão;
-* Inovação tecnológica: Avalia o uso de tecnologias mais recentes, desde que estáveis;
-* Coerência: Avalia se os requisitos foram atendidos;
-* Boas práticas: Avalia se o projeto segue boas práticas de desenvolvimento, incluindo segurança e otimização;
-* Controle de Qualidade: Avalia a qualidade assegurada por testes automatizados e integração contínua.
-
-**Observação**: A performance e a adequação dos recursos serão consideradas durante o processo de avaliação. Alem disso, a avaliação ocorrerá em todos os componentes do projeto (JavaScript, HTML e CSS).
 
 As APIs a serem consumidas são:
 * Detalhes de um usuário: [https://api.github.com/users/{username}](https://api.github.com/users/{username})
 * Repositórios de um usuário: [https://api.github.com/users/{username}/repos](https://api.github.com/users/{username}/repos)
 * Detalhes de um repositório: [https://api.github.com/repos/{full_name}](https://api.github.com/repos/{full_name})
 
-### **Processo de submissão** ###
+### Processo de submissão
 
 O desafio deve ser entregue pelo [GitHub](http://github.com/) e a aplicação deve estar hospedada ([Heroku](https://www.heroku.com/), [Firebase](https://www.firebase.com/), [Plunker](https://plnkr.co/), etc).  
 As URLs devem ser enviadas por email.
